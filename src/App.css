@@ -66,8 +66,8 @@ a, a:active, a:visited, a:focus {
   font-size: calc(10px + 2vmin);
 }
 
-.App-link {
-  color: #61dafb;
+.github-calendar {
+  padding: 10px;
 }
 
 @media only screen and (max-width : 869px) {
