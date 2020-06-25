@@ -36,12 +36,16 @@ header nav a {
   opacity: 0.666;
   margin-right: 10px;
   margin-left: 10px;
-  /* text */
 }
 
-/* nav {
-  display: block;
-} */
+button {
+  padding-left: 10px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background: none;
+  color: inherit;
+}
 
 a, a:active, a:visited, a:focus {
   font-size: 16px;
@@ -52,14 +56,7 @@ a, a:active, a:visited, a:focus {
   transition: border-bottom-color 500ms ease-in-out;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  /* .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  } */
-}
-
 .App-header {
-  background-color: white;
   min-height: 40vh;
   display: flex;
   flex-direction: column;
@@ -67,21 +64,11 @@ a, a:active, a:visited, a:focus {
   justify-content: top;
   font-family: Helvetica;
   font-size: calc(10px + 2vmin);
-  color: black;
 }
 
 .App-link {
   color: #61dafb;
 }
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
 @media only screen and (max-width : 869px) {
 
