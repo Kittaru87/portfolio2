@@ -22,19 +22,22 @@ function App() {
         <div className="App">
           <header className="App-header">
             <div className="profile-img-container">
-              <img src="/images/sbell.png" className="picture" alt="picture" />
+              <img src="/images/sbell.png" className="picture" alt="profile" />
             </div>
             <h1>
               Sophia Bell
             </h1>
             <nav>
-              <a href="https://github.com/Kittaru87" add target="_blank">Github</a>
-              <a href="https://www.linkedin.com/in/sophia-bell-1a945a2b/" add target="_blank">LinkedIn</a>
-              <a href="https://medium.com/@sophbell87" add target="_blank">Blog</a>
-              <a href="mailto:sophbell87@gmail.com" add target="_blank">Email</a>
+              <a href="https://github.com/Kittaru87" add target="_blank" rel="noopener noreferrer">Github</a>
+              <a href="https://www.linkedin.com/in/sophia-bell-1a945a2b/" add target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://medium.com/@sophbell87" add target="_blank" rel="noopener noreferrer">Blog</a>
+              <a href="mailto:sophbell87@gmail.com" add target="_blank" rel="noopener noreferrer">Email</a>
               <button onClick={() => setButton("☼"), themeToggler} id="theme-button">{lightButton}</button>
             </nav>
           </header>
+          <div className="currently-looking-tag">
+            <span className="tag tag-primary">Currently looking</span>
+          </div>
           <div className="github-calendar">
             <GitHubCalendar username="kittaru87" />
           </div>
