@@ -1,4 +1,5 @@
 import React from 'react';
+import GitHubCalendar from 'react-github-calendar';
 import './App.css';
 
 function App() {
@@ -17,15 +18,9 @@ function App() {
           <a href="https://medium.com/@sophbell87" add target="_blank">Blog</a>
           <a href="mailto:sophbell87@gmail.com" add target="_blank">Email</a>
         </nav>
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
       </header>
+      <GitHubCalendar username="kittaru87" />
+
     </div>
   );
 }
