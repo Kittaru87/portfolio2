@@ -5,7 +5,7 @@ import { GlobalStyles } from "./globalStyles.js";
 import { lightTheme, darkTheme } from "./theme.js"
 import './App.css';
 
-function App() {
+function Home() {
   const [mode, setButton] = useState("☽");
   const [theme, setTheme] = useState('light');
   const themeToggler = () => {
@@ -52,4 +52,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

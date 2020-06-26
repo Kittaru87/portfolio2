@@ -3,7 +3,7 @@ import App from "./App";
 // import Contact from "./components/Contact";
 import About from "./About";
 const routes = {
-  "/": () => <App />,
+  "/": () => <Home />,
   "/about": () => <About />,
   // "/contact": () => <Contact />
 };
