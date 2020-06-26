@@ -28,6 +28,19 @@
   margin-bottom: 10px;
 }
 
+nav {
+  font-size: 16px;
+}
+
+blockquote {
+  display: inline-block;
+  font-size: 32px;
+  line-height: 1.5625em;
+  opacity: 0.777;
+  max-width: 970px;
+  font-weight: 300;
+}
+
 body {
   padding-top: 100px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -65,7 +78,6 @@ button {
 }
 
 a, a:active, a:visited, a:focus {
-  font-size: 16px;
   color: inherit;
   text-decoration: none;
   border-bottom: dashed 1px rgba(0,0,0,0.4);
@@ -88,12 +100,18 @@ a, a:active, a:visited, a:focus {
   margin-top: 3rem; 
 }
 
-@media only screen and (max-width : 869px) {
+@media only screen and (max-width : 750px) {
 
   .picture {
     height: 120px;
     width: 110px;
     margin-top: 20px;
     pointer-events: none;
+  }
+
+  blockquote {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 50px;
   }
 }
