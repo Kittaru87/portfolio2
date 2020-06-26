@@ -1,10 +1,11 @@
 import React from "react";
-import App from "./App";
-// import Contact from "./components/Contact";
-import About from "./About";
+import Projects from "./components/Projects";
+import About from "./components/About";
+import Home from "./components/Home";
+
 const routes = {
-  "/": () => <App />,
-  "/about": () => <About />,
-  // "/contact": () => <Contact />
+  "/": () => <Home />,
+  // "/about": () => <About />,
+  // "/projects": () => <Projects />
 };
 export default routes;
