@@ -5,6 +5,7 @@ import { GlobalStyles } from "../globalStyles.js";
 import { lightTheme, darkTheme } from "../theme.js"
 import About from "../components/About";
 import Projects from "../components/Projects";
+import Resume from "../components/Resume";
 import './Home.css';
 
 function Home() {
@@ -35,7 +36,7 @@ function Home() {
               <a href="https://medium.com/@sophbell87" add target="_blank" rel="noopener noreferrer">Blog</a>
               <a href="mailto:sophbell87@gmail.com" add target="_blank" rel="noopener noreferrer">Email</a>
 
-              <a onClick={themeToggler} id="theme-button">{mode}</a>
+              <button onClick={themeToggler} id="theme-button">{mode}</button>
             </nav>
           </header>
           <div className="currently-looking-tag">
@@ -49,8 +50,10 @@ function Home() {
         <Router>
           <Link to="/about" className="tag">About me</Link>
           <Link to="/projects" className="tag">Projects</Link>
+          <Link to="/resume" className="tag">Resume</Link>
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
+          <Route path="/resume" component={Resume} />
         </Router> 
         </div>
             {/* <div className="github-calendar">
