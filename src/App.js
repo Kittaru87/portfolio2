@@ -22,8 +22,8 @@ function App() {
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <>
       <GlobalStyles/>
-        <div className="App">
-          <header className="App-header">
+        <div className="app">
+          <header className="app-header">
             <div className="profile-img-container">
               <img src="/images/sbell.png" className="picture" alt="profile" />
             </div>
@@ -48,9 +48,9 @@ function App() {
           </blockquote>
         <div>
         <Router>
-          <Link to="/about" className="tag">About me</Link>
-          <Link to="/projects" className="tag">Projects</Link>
-          <Link to="/resume" className="tag">Resume</Link>
+          <Link to="/about" className="tag link">About me</Link>
+          <Link to="/projects" className="tag link">Projects</Link>
+          <Link to="/resume" className="tag link">Resume</Link>
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           <Route path="/resume" component={Resume} />

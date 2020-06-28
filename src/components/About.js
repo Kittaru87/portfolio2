@@ -1,18 +1,14 @@
-import React, { useState } from 'react';
-import { ThemeProvider } from "styled-components";
-import { GlobalStyles } from "../globalStyles.js";
-import { lightTheme, darkTheme } from "../theme.js"
+import React from 'react';
 import '../App.css';
 
 function About() {
 
   return (
-    
-      <>
- 
-          <p>Hello about page</p>
-        
-      </>
+    <div>
+    <blockquote>
+      Hello <span role="img" aria-label="wave">👋</span>
+    </blockquote>
+    </div>
  
   )
 }

@@ -1,4 +1,4 @@
-.App {
+.app {
   text-align: center;
 }
 
@@ -27,6 +27,12 @@
   text-align: center;
   margin-bottom: 10px;
 }
+
+.link {
+  margin: 0 10px;
+  font-size: 14pt;
+  opacity: 0.666;
+} 
 
 nav {
   font-size: 16px;
@@ -85,7 +91,7 @@ a, a:active, a:visited, a:focus {
   transition: border-bottom-color 500ms ease-in-out;
 }
 
-.App-header {
+.app-header {
   min-height: 35vh;
   display: flex;
   flex-direction: column;
