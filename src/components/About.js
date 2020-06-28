@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "../globalStyles.js";
 import { lightTheme, darkTheme } from "../theme.js"
-import './Home.css';
+import '../App.css';
 
 function About() {
 
