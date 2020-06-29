@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import { bounce } from 'react-animations';
-import '../App.css';
+import './About.css';
 
 function About() {  
   const bounceAnimation = keyframes`${bounce}`;
