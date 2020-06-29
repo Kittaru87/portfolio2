@@ -1,16 +1,29 @@
 
-.project-left{
+.project{
   opacity: 0.666;
   line-height: 1.6;
-  padding: 0 1em 0 2em;
+  padding: 0 1em 0 5em;
   width: 45%;
+  z-index: 1;
 }
 
-.project-right{
-  opacity: 0.666;
-  line-height: 1.6;
-  align-items: right;
-  padding: 0 2em 0 1em;
-  width: 45%;
+.project-gif {
+  text-align: right;
+  padding: 0 5em 0 1em;
+  z-index: 2;
 }
 
+
+@media only screen and (max-width : 750px) {
+.project{
+  padding: 0 2em;
+  width: auto;
+}
+
+.project-gif {
+  text-align: center;
+  padding: 0 2em;
+  width: auto;
+}
+
+}
