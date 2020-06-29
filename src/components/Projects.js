@@ -27,7 +27,7 @@ function Projects() {
         </p>
         </div>
         <div className="project-gif">
-        <img src="/images/MixTape.png" alt="mixtape" />
+          <img src="/images/MixTape.png" alt="mixtape" />
         </div>
         
         <div>
@@ -42,7 +42,7 @@ function Projects() {
         </p>
         </div>
         <div className="project-gif">
-        <img src="/images/Portfolio-Innercise.gif" alt="innercise" />
+          <img src="/images/Portfolio-Innercise.gif" alt="innercise" />
         </div>
 
         <div>
@@ -56,7 +56,7 @@ function Projects() {
         </p>
         </div>
         <div className="project-gif">
-        <img src="/images/Acebook.png" alt="acebook" />
+          <img src="/images/Acebook.png" alt="acebook" />
         </div>
 
         <div>
@@ -69,7 +69,7 @@ function Projects() {
         </p>
         </div>
         <div className="project-gif">
-        <img src="/images/BTT.png" alt="bank-tech-test" />
+          <img src="/images/BTT.png" alt="bank-tech-test" />
         </div>
       </Fade>
 
