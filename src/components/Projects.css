@@ -1,0 +1,16 @@
+
+.project-left{
+  opacity: 0.666;
+  line-height: 1.6;
+  padding: 0 1em 0 2em;
+  width: 45%;
+}
+
+.project-right{
+  opacity: 0.666;
+  line-height: 1.6;
+  align-items: right;
+  padding: 0 2em 0 1em;
+  width: 45%;
+}
+
