@@ -4,10 +4,10 @@ import Fade from 'react-reveal/Fade';
 
 function Projects() {
   const animateList = [
-    <a href="https://github.com/KG700/mix-tape" add target="_blank" rel="noopener noreferrer">Mix Tape</a>, 
-    <a href="https://github.com/Kittaru87/Innercise" add target="_blank" rel="noopener noreferrer">Innercise</a>, 
-    <a href="https://github.com/Kittaru87/acebook-theUndefinedMethod" add target="_blank" rel="noopener noreferrer">Acebook</a>, 
-    <a href="https://github.com/Kittaru87/bank-tech-test" add target="_blank" rel="noopener noreferrer">Bank Tech Test</a>
+    <span><a href="https://github.com/KG700/mix-tape" add target="_blank" rel="noopener noreferrer">Mix Tape</a></span>, 
+    <span><a href="https://github.com/Kittaru87/Innercise" add target="_blank" rel="noopener noreferrer">Innercise</a></span>, 
+    <span><a href="https://github.com/Kittaru87/acebook-theUndefinedMethod" add target="_blank" rel="noopener noreferrer">Acebook</a></span>, 
+    <span><a href="https://github.com/Kittaru87/bank-tech-test" add target="_blank" rel="noopener noreferrer">Bank Tech Test</a></span>
   ];
   
   return (
