@@ -1,16 +1,18 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import ScrollUp from './Scroll.js';
 import './Projects.css';
 
 
 function Projects() {
+  const Scroll = ScrollUp()
 
   return (
-
     <>
       <div>
         <blockquote>
           A selection of current and finished projects
+          <p style={{fontSize: "16px"}}>(available on Github)</p>
         </blockquote>
       </div>
 
@@ -21,8 +23,8 @@ function Projects() {
           </blockquote>
         </div>
         <div className="project">
-        <p> Mix Tape utilises the Spotify API to mix and produce playlists with your friends. The app stores a user's top 50 most played tracks 
-        and allows you to select other users' tracks to produce a randomised 25 track playlist. This playlist can then either be played in-app or
+        <p> Mix Tape utilises the Spotify API to mix and produce playlists with your friends. The app stores a user&apos;s top 50 most played tracks 
+        and allows you to select other users&apos; tracks to produce a randomised 25 track playlist. This playlist can then either be played in-app or
         via Spotify.
         </p>
         </div>
@@ -65,13 +67,16 @@ function Projects() {
           </blockquote>
         </div>
         <div className="project">
-        <p> This is an example of a tech test to write a program that can be used via irb to simulate a user's interaction with their bank account.
+        <p> This is an example of a tech test to write a program that can be used via irb to simulate a user&apos;s interaction with their bank account.
         </p>
         </div>
-        <div className="project-gif">
+        <div className="project-gif" style={{marginBottom: "70px"}}>
           <img src="/images/BTT.png" alt="bank-tech-test" />
         </div>
       </Fade>
+      <div>
+        {Scroll}
+      </div>
 
     </>
 
