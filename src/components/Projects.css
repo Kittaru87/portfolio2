@@ -1,0 +1,35 @@
+
+blockquote p {
+  font-size: 16px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.project{
+  opacity: 0.666;
+  line-height: 1.6;
+  padding: 0 1em 0 5em;
+  width: 45%;
+
+}
+
+.project-gif {
+  text-align: right;
+  padding: 0 em 0 2em;
+  display: inline-block;  
+  width: 70%;
+}
+
+
+@media only screen and (max-width : 750px) {
+.project{
+  padding: 0 2em;
+  width: auto;
+}
+
+.project-gif {
+  text-align: center;
+  width: 100%;
+}
+
+}
