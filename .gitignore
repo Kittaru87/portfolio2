@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+sophiabell_dev.csr
+sophiabell_dev.key
+www_sophiabell_dev.crt
+www_sophiabell_dev.ca-bundle
+
+/ssl
