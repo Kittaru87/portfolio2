@@ -1,9 +1,3 @@
-const fs = require('fs');
-
-const cert = fs.readFileSync('./ssl/www_sophiabell_dev.crt');
-const ca = fs.readFileSync('./ssl/www_sophiabell_dev.ca-bundle');
-const key = fs.readFileSync('./ssl/sophiabell_dev.key');
-
 import React, { useState } from 'react';
 import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 import { ThemeProvider } from "styled-components";

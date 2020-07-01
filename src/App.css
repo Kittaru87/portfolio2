@@ -120,4 +120,8 @@ a, a:active, a:visited, a:focus {
     font-size: 17px;
     margin-bottom: 50px;
   }
+
+  .currently-looking-tag {
+    margin-top: 40px;
+  }
 }
