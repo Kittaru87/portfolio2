@@ -40,7 +40,7 @@ function Projects() {
         <div className="project">
         <p> Innercise is an app to help people focus their at home exercise routines. Innericse utilises the YouTube API to pull videos based on a 
           selected area of the body. If a user likes the video they can add it to their profile. A user can also record whether they have completed
-          the exercise video and their profile with record which exercises they have done in the week/month/all time.
+          the exercise video and their profile will record which exercises they have done in the week/month/all time.
         </p>
         </div>
         <div className="project-gif">
