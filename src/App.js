@@ -47,20 +47,22 @@ function App() {
             Junior Full-Stack Engineer and graduate of <a href="https://makers.tech/" add target="_blank" rel="noopener noreferrer">Makers Academy bootcamp</a>; current Freelance Web Developer and Sub-Editor. Former Digital Content Manager at the 
             <a href="https://www.litrg.org.uk" add target="_blank" rel="noopener noreferrer"> Low Incomes Tax Reform Group</a>. 
           </blockquote>
-        <div>
-        <Router>
-          <Link to="/about" className="tag link">About me</Link>
-          <Link to="/projects" className="tag link">Projects</Link>
-          <Link to="/resume" className="tag link">Resume</Link>
-          <Link to="/calendar" style={{border: "none"}}>
-            <img to="/calendar" src={github} alt="github-contributions" className="github-contributions"/>
-          </Link>
-          <Route path="/about" component={About} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/resume" component={Resume} />
-          <Route path="/calendar" component={Calendar} />
-        </Router> 
-        </div>
+          <div>
+            <Router>
+              <Link to="/about" className="tag link">About me</Link>
+              <Link to="/projects" className="tag link">Projects</Link>
+              <Link to="/resume" className="tag link">Resume</Link>
+              <Link to="/calendar" style={{border: "none"}}>
+                <img to="/calendar" src={github} alt="github-contributions" className="github-contributions"/>
+              </Link>
+              <Route path="/about" component={About} />
+              <Route path="/projects" component={Projects} />
+              <Route path="/resume" component={Resume} />
+              <Route path="/calendar" component={Calendar} />
+            </Router> 
+          </div>
+          <div>
+          </div>
         </div>
       </>
     </ThemeProvider>

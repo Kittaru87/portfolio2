@@ -12,7 +12,7 @@ function Calendar() {
         </blockquote>
       </div>
       <div className="calendar">
-        <GitHubCalendar username="kittaru87" />
+        <GitHubCalendar username="Kittaru87" />
       </div>
     </>
   )
