@@ -1,0 +1,11 @@
+.calendar {
+  margin-bottom: 70px;
+}
+
+@media only screen and (max-width : 750px) {
+
+  .calendar {
+    padding: 0 2em;
+    width: auto;
+  }
+}

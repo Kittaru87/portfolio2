@@ -101,9 +101,12 @@ a, a:active, a:visited, a:focus {
   font-size: calc(10px + 2vmin);
 }
 
-.github-calendar {
-  padding: 10px;
-  margin-top: 3rem; 
+.github-contributions {
+  height: 20px;
+  width: 20px;
+  vertical-align: -webkit-baseline-middle;
+  margin: 0 10px;
+  border: none;
 }
 
 @media only screen and (max-width : 750px) {
@@ -123,5 +126,14 @@ a, a:active, a:visited, a:focus {
 
   .currently-looking-tag {
     margin-top: 40px;
+  }
+
+  img .github-contributions {
+    height: 20px;
+    width: 20px;
+    vertical-align: -webkit-baseline-middle;
+    margin: 0 10px;
+    padding: 5px 15px;
+    border: none;
   }
 }

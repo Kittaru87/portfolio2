@@ -6,14 +6,17 @@ import { lightTheme, darkTheme } from "./theme.js"
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
+import Calendar from "./components/Calendar";
 import './App.css';
 
 function App() {
   const [mode, setButton] = useState("☽");
   const [theme, setTheme] = useState('light');
+  const [github, setGithub] = useState("/images/github-dark.png");
   const themeToggler = () => {
     theme === 'light' ? setTheme('dark') : setTheme('light');
-    theme === 'light' ? setButton('☼') : setButton('☽')
+    theme === 'light' ? setButton('☼') : setButton('☽');
+    theme === 'light' ? setGithub("/images/github-light.png") : setGithub("/images/github-dark.png");
   }
 
   return (
@@ -49,14 +52,15 @@ function App() {
           <Link to="/about" className="tag link">About me</Link>
           <Link to="/projects" className="tag link">Projects</Link>
           <Link to="/resume" className="tag link">Resume</Link>
+          <Link to="/calendar" style={{border: "none"}}>
+            <img to="/calendar" src={github} alt="github-contributions" className="github-contributions"/>
+          </Link>
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           <Route path="/resume" component={Resume} />
+          <Route path="/calendar" component={Calendar} />
         </Router> 
         </div>
-            {/* <div className="github-calendar">
-              <GitHubCalendar username="kittaru87" />
-            </div> */}
         </div>
       </>
     </ThemeProvider>
