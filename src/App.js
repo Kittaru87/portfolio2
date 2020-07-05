@@ -61,8 +61,6 @@ function App() {
               <Route path="/calendar" component={Calendar} />
             </Router> 
           </div>
-          <div>
-          </div>
         </div>
       </>
     </ThemeProvider>
