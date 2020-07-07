@@ -9,9 +9,20 @@
     border-radius: 50%;
     height: 150px;
     width: 150px;
-    text-align: right;
-    padding: 0 em 0 2em;
-    display: inline-block;  
+    display: inline-block;
+    margin-bottom: 20px; 
+  }
+
+  .likes{
+    opacity: 0.666;
+    line-height: 1.6;
+    padding: 0 20%;
+  }
+
+  .container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
   }
 
 @media only screen and (max-width : 850px) {
@@ -19,5 +30,14 @@
   blockquote {
     margin-block-start: 2em;
   }
-  
+
+  .container{
+    display: inline-block;
+  }
+
+  .likes{
+    padding: 0 2em;
+    width: auto;
+  }
+
 }
