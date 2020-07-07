@@ -13,6 +13,9 @@ function About() {
     <div>
     <blockquote>
       <BouncyDiv>Hello <span role="img" aria-label="wave">👋</span></BouncyDiv>
+      <div>
+      Welcome to my portfolio!
+      </div>
     </blockquote>
     </div>
  

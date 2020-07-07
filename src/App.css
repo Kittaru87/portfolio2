@@ -23,6 +23,12 @@
   color: #fff;
 }
 
+.tag-secondary {
+  background: rgb(106, 182, 71);
+  color: #fff;
+  margin: 5px;
+}
+
 .currently-looking-tag {
   text-align: center;
   margin-bottom: 10px;
