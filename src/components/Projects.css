@@ -20,8 +20,21 @@ blockquote p {
   width: 70%;
 }
 
+.right {
+  margin: -80px auto;
+  /* z-index: 2; */
+  /* position: absolute; */
+}
 
-@media only screen and (max-width : 750px) {
+
+@media only screen and (max-width : 1450px) {
+
+  .right {
+    margin: 20px auto;;
+  }
+}
+
+@media only screen and (max-width : 850px) {
 .project{
   padding: 0 2em;
   width: auto;
