@@ -43,6 +43,9 @@ function Projects() {
           <div className="tag tag-secondary">
             Capybara
           </div>
+          <div className="tag tag-secondary">
+            Heroku
+          </div>
         </div>
         <div className="project-gif right">
           <img src="/images/MixTape.png" alt="mixtape" />
@@ -78,6 +81,9 @@ function Projects() {
           <div className="tag tag-secondary">
             Capybara
           </div>
+          <div className="tag tag-secondary">
+            Heroku
+          </div>
         </div>
         <div className="project-gif right">
           <img src="/images/Portfolio-Innercise.gif" alt="innercise" />
@@ -109,6 +115,9 @@ function Projects() {
           </div>
           <div className="tag tag-secondary">
             Capybara
+          </div>
+          <div className="tag tag-secondary">
+            Heroku
           </div>
         </div>
         <div className="project-gif right">

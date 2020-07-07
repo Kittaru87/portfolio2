@@ -1,8 +1,23 @@
 
+  #cain {
+    width: auto;
+    margin: 20px;
+  }
 
-@media only screen and (max-width : 750px) {
+  .round-pics{
+    border: 1px solid;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    text-align: right;
+    padding: 0 em 0 2em;
+    display: inline-block;  
+  }
 
+@media only screen and (max-width : 850px) {
+  
   blockquote {
     margin-block-start: 2em;
   }
+  
 }
