@@ -84,8 +84,8 @@ header nav a {
   margin-left: 10px;
 }
 
-p {
-  font-weight: 500;
+p{
+  opacity: 0.855;
 }
 
 button {
