@@ -73,10 +73,19 @@ h1 {
   margin-inline-end: 0px;
 }
 
+h2 {
+  font-weight: 300;
+  opacity: 0.855;
+}
+
 header nav a {
   opacity: 0.666;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+p{
+  opacity: 0.855;
 }
 
 button {
@@ -115,7 +124,7 @@ a, a:active, a:visited, a:focus {
   border: none;
 }
 
-@media only screen and (max-width : 750px) {
+@media only screen and (max-width : 850px) {
 
   .picture {
     height: 120px;

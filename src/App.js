@@ -52,7 +52,7 @@ function App() {
               <Link to="/about" className="tag link">About me</Link>
               <Link to="/projects" className="tag link">Projects</Link>
               <Link to="/resume" className="tag link">Resume</Link>
-              <Link to="/calendar" style={{border: "none"}}>
+              <Link to="/calendar" style={{border: "none", marginTop:"10px"}}>
                 <img to="/calendar" src={github} alt="github-contributions" className="github-contributions"/>
               </Link>
               <Route path="/about" component={About} />
