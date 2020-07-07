@@ -1,9 +1,12 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import { bounce } from 'react-animations';
+import Fade from 'react-reveal/Fade';
+import ScrollUp from './Scroll.js';
 import './About.css';
 
 function About() {  
+  const Scroll = ScrollUp()
   const bounceAnimation = keyframes`${bounce}`;
   const BouncyDiv = styled.div`
                     animation: 2s ${bounceAnimation};
@@ -23,6 +26,8 @@ function About() {
       <div>
         <img src="https://vignette.wikia.nocookie.net/median-xl/images/9/96/Deckard_Cain_npc.gif" id="cain"></img>
       </div>
+
+      <Fade top>
       
       <div className="container">
         <div className="likes" style={{opacity: "0.888"}}>
@@ -66,9 +71,13 @@ function About() {
         </div>
       </div>
       <div>
-        <img className="round-pics" src="/images/cat.png" alt="marbles"></img>
+        <img className="round-pics" src="/images/cat.png" alt="marbles" style={{marginBottom: "70px"}}></img>
       </div>
-
+      
+      </Fade>
+      <div >
+        {Scroll}
+      </div>
     </div>
  
   )
