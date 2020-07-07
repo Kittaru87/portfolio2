@@ -14,6 +14,7 @@ function About() {
     <blockquote>
       <BouncyDiv>Hello <span role="img" aria-label="wave">👋</span></BouncyDiv>
     </blockquote>
+
     </div>
  
   )

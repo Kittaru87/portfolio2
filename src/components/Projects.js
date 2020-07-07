@@ -27,6 +27,21 @@ function Projects() {
         and allows you to select other users&apos; tracks to produce a randomised 25 track playlist. This playlist can then either be played in-app or
         via Spotify.
         </p>
+        <div className="tag tag-secondary">
+          Ruby on Rails
+        </div>
+        <div className="tag tag-secondary">
+          React
+        </div>
+        <div className="tag tag-secondary">
+          PostgreSQL
+        </div>
+        <div className="tag tag-secondary">
+          Rspec
+        </div>
+        <div className="tag tag-secondary">
+          Capybara
+        </div>
         </div>
         <div className="project-gif">
           <img src="/images/MixTape.png" alt="mixtape" />
@@ -42,6 +57,24 @@ function Projects() {
           selected area of the body. If a user likes the video they can add it to their profile. A user can also record whether they have completed
           the exercise video and their profile will record which exercises they have done in the week/month/all time.
         </p>
+        <div className="tag tag-secondary">
+          Ruby on Rails
+        </div>
+        <div className="tag tag-secondary">
+          Javascript
+        </div>
+        <div className="tag tag-secondary">
+          jQuery
+        </div>
+        <div className="tag tag-secondary">
+          PostgreSQL
+        </div>
+        <div className="tag tag-secondary">
+          Rspec
+        </div>
+        <div className="tag tag-secondary">
+          Capybara
+        </div>
         </div>
         <div className="project-gif">
           <img src="/images/Portfolio-Innercise.gif" alt="innercise" />
@@ -56,6 +89,24 @@ function Projects() {
         <p> Acebook is a project loosely based on Facebook. Users can post messages and like or comment on those messages. Posts are displayed
           in reverse chronological order (newest first).
         </p>
+        <div className="tag tag-secondary">
+          Ruby on Rails
+        </div>
+        <div className="tag tag-secondary">
+          Javascript
+        </div>
+        <div className="tag tag-secondary">
+          jQuery
+        </div>
+        <div className="tag tag-secondary">
+          PostgreSQL
+        </div>
+        <div className="tag tag-secondary">
+          Rspec
+        </div>
+        <div className="tag tag-secondary">
+          Capybara
+        </div>
         </div>
         <div className="project-gif">
           <img src="/images/Acebook.png" alt="acebook" />
@@ -69,6 +120,9 @@ function Projects() {
         <div className="project">
         <p> This is an example of a tech test to write a program that can be used via irb to simulate a user&apos;s interaction with their bank account.
         </p>
+        <div className="tag tag-secondary">
+          Ruby
+        </div>
         </div>
         <div className="project-gif" style={{marginBottom: "70px"}}>
           <img src="/images/BTT.png" alt="bank-tech-test" />
