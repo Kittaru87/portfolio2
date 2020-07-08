@@ -24,7 +24,7 @@ function About() {
         Stay a while and listen...
       </div>
       <div>
-        <img src="https://vignette.wikia.nocookie.net/median-xl/images/9/96/Deckard_Cain_npc.gif" id="cain"></img>
+        <img src="https://vignette.wikia.nocookie.net/median-xl/images/9/96/Deckard_Cain_npc.gif" id="cain" alt="deckard-cain"></img>
       </div>
 
       <Fade top>
@@ -46,7 +46,7 @@ function About() {
           It's pretty much all I read. I highly recommend the Hyperion Cantos by Dan Simmons, or the Expanse series by James S. A. Corey (which is also
           a very good tv series out at the moment). 
           <br />
-          I've been fascinated by all things space since a young age, and I'd like to think that I'd make a great astronaut or general space cowboy.
+          I've been fascinated by all things space since a young age, and I'd like to think that I'd make a great astronaut or space cowboy.
         </div>
       </div>
       <div>
@@ -73,7 +73,7 @@ function About() {
       <div>
         <img className="round-pics" src="/images/cat.png" alt="marbles" style={{marginBottom: "70px"}}></img>
       </div>
-      
+
       </Fade>
       <div >
         {Scroll}
