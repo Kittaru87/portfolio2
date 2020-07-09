@@ -10,7 +10,7 @@ function Projects() {
   return (
     <>
       <div>
-        <blockquote>
+        <blockquote id="projects">
           A selection of current and finished projects
           <p style={{fontSize: "16px"}}>(available on Github)</p>
         </blockquote>
