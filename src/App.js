@@ -65,7 +65,7 @@ function App() {
               <Route path="/calendar" component={Calendar} />
             </Router> 
           </div>
-          <footer style={{opacity: "0.600", marginTop:"50px", marginBottom: "10px"}}>
+          <footer style={{opacity: "0.600", marginTop:"50px", marginBottom: "10px", fontSize: "10pt"}}>
             Sophia Bell, 2020
           </footer>
         </div>
