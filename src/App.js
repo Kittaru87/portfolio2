@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./globalStyles.js";
-import { lightTheme, darkTheme } from "./theme.js"
+import { lightTheme, darkTheme } from "./theme.js";
+import ScrollIntoView from 'react-scroll-into-view';
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
@@ -48,11 +49,14 @@ function App() {
             <a href="https://www.litrg.org.uk" add target="_blank" rel="noopener noreferrer"> Low Incomes Tax Reform Group</a>. 
           </blockquote>
           <div>
+            <div>     
+              </div>
             <Router>
-              <Link to="/about" className="tag link">About me</Link>
-              <Link to="/projects" className="tag link">Projects</Link>
-              <Link to="/resume" className="tag link">Resume</Link>
-              <Link to="/calendar" style={{border: "none", marginTop:"10px"}}>
+                <Link to="/about" className="tag link"><ScrollIntoView selector="#about" delay="100">About me</ScrollIntoView></Link>
+
+              <Link to="/projects" className="tag link"><ScrollIntoView selector="#projects">Projects</ScrollIntoView></Link>
+              <Link to="/resume" className="tag link"><ScrollIntoView selector="#resume">Resume</ScrollIntoView></Link>
+              <Link to="/calendar" style={{border: "none", marginTop:"40px"}}>
                 <img to="/calendar" src={github} alt="github-contributions" className="github-contributions"/>
               </Link>
               <Route path="/about" component={About} />
@@ -61,6 +65,9 @@ function App() {
               <Route path="/calendar" component={Calendar} />
             </Router> 
           </div>
+          <footer style={{opacity: "0.600", marginTop:"50px", marginBottom: "10px"}}>
+            Sophia Bell, 2020
+          </footer>
         </div>
       </>
     </ThemeProvider>

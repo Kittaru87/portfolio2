@@ -14,7 +14,7 @@ function About() {
 
   return (
     <div>
-      <blockquote>
+      <blockquote id="about">
         <BouncyDiv>Hello <span role="img" aria-label="wave">👋</span></BouncyDiv>
         <div>
         Welcome to my portfolio!
@@ -26,7 +26,6 @@ function About() {
       <div>
         <img src="https://vignette.wikia.nocookie.net/median-xl/images/9/96/Deckard_Cain_npc.gif" id="cain" alt="deckard-cain"></img>
       </div>
-
       <Fade top>
       
       <div className="container">

@@ -7,7 +7,7 @@ function Calendar() {
   return (
     <>
       <div>
-        <blockquote>
+        <blockquote id="calendar">
           Github contributions
         </blockquote>
       </div>
