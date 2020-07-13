@@ -52,7 +52,7 @@ function App() {
             <div>     
               </div>
             <Router>
-                <Link to="/about" className="tag link"><ScrollIntoView selector="#about" delay="100">About me</ScrollIntoView></Link>
+                <Link to="/about" className="tag link"><ScrollIntoView selector="#about">About me</ScrollIntoView></Link>
 
               <Link to="/projects" className="tag link"><ScrollIntoView selector="#projects">Projects</ScrollIntoView></Link>
               <Link to="/resume" className="tag link"><ScrollIntoView selector="#resume">Resume</ScrollIntoView></Link>
