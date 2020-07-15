@@ -71,7 +71,7 @@ function App() {
             <span className="tag tag-primary">Currently looking</span>
           </div>
           <blockquote>
-            Junior Full-Stack Engineer and graduate of{" "}
+            Software Engineer and graduate of{" "}
             <a
               href="https://makers.tech/"
               target="_blank"
