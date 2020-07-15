@@ -1,7 +1,5 @@
 # Portfolio website
 
-My [portfolio](https://sophiabell-portfolio.herokuapp.com/) is available via Heroku. I am currently in the process of setting up a custome domain with SSL certificate for this site.
+My [portfolio](https://www.sophiabell.dev) is now live.
 
-**Tech:** React, Eslint, Circle CI
-
-
+**Tech:** React, Jest, Eslint, Circle CI
