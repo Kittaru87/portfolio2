@@ -13,13 +13,9 @@
 }
 
 .likes {
-  opacity: 0.666;
+  opacity: 80%;
   line-height: 1.6;
   padding: 0 20%;
-}
-
-.opacity {
-  opacity: 80%;
 }
 
 .container {
