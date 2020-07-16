@@ -23,7 +23,7 @@ function About() {
         </BouncyDiv>
         <div>Welcome to my portfolio!</div>
       </blockquote>
-      <div style={{ opacity: "0.888" }}>Stay a while and listen...</div>
+      <div className="opacity">Stay a while and listen...</div>
       <div>
         <img
           src="https://vignette.wikia.nocookie.net/median-xl/images/9/96/Deckard_Cain_npc.gif"
@@ -33,7 +33,7 @@ function About() {
       </div>
       <Fade top>
         <div className="container">
-          <div className="likes" style={{ opacity: "0.888" }}>
+          <div className="likes opacity">
             <h2> Games </h2>
             As my friend Deckard Cain here will tell you, I'm an avid gamer
             (when I have the time). My all-time favourite game has to be Diablo
@@ -50,7 +50,7 @@ function About() {
         </div>
 
         <div className="container">
-          <div className="likes" style={{ opacity: "0.888" }}>
+          <div className="likes opacity">
             <h2> Sci-Fi</h2>
             It's pretty much all I read. I highly recommend the Hyperion Cantos
             by Dan Simmons, or the Expanse series by James S. A. Corey (which is
@@ -65,7 +65,7 @@ function About() {
         </div>
 
         <div className="container">
-          <div className="likes" style={{ opacity: "0.888" }}>
+          <div className="likes opacity">
             <h2> Pottery </h2>
             Up until recently I was a member of a ceramic studio and enjoyed
             producing a wide variety of ceramic beauties (but mostly mugs). I
@@ -78,7 +78,7 @@ function About() {
         </div>
 
         <div className="container">
-          <div className="likes" style={{ opacity: "0.888" }}>
+          <div className="likes opacity">
             <h2> Marbles </h2>
             This is my cat, Marbles. She's a delightfully spicy beanbag who
             loves to chew plastic under the bed at 4 in the morning.

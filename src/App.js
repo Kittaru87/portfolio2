@@ -8,6 +8,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Calendar from "./components/Calendar";
+import Hero from "./components/Hero";
 import "./App.css";
 
 function App() {
@@ -27,87 +28,19 @@ function App() {
       <>
         <GlobalStyles />
         <div className="app">
-          <header className="app-header">
-            <div className="profile-img-container">
-              <img src="/images/sbell.png" className="picture" alt="profile" />
-            </div>
-            <h1>Sophia Bell</h1>
-            <nav>
-              <a
-                href="https://github.com/Kittaru87"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>
-              <a
-                href="https://www.linkedin.com/in/sophia-bell-1a945a2b/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn
-              </a>
-              <a
-                href="https://medium.com/@sophbell87"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Blog
-              </a>
-              <a
-                href="mailto:sophbell87@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Email
-              </a>
-
-              <button onClick={themeToggler} id="theme-button">
-                {mode}
-              </button>
-            </nav>
-          </header>
-          <div className="currently-looking-tag">
-            <span className="tag tag-primary">Currently looking</span>
-          </div>
-          <blockquote>
-            Software Engineer and graduate of{" "}
-            <a
-              href="https://makers.tech/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Makers Academy bootcamp
-            </a>
-            ; current Freelance Web Developer and Sub-Editor. Former Digital
-            Content Manager at the
-            <a
-              href="https://www.litrg.org.uk"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              Low Incomes Tax Reform Group
-            </a>
-            .
-          </blockquote>
+          <Hero themeToggler={themeToggler} mode={mode} />
           <div>
-            <div></div>
             <Router>
               <Link to="/about" className="tag link">
                 <ScrollIntoView selector="#about">About me</ScrollIntoView>
               </Link>
-
               <Link to="/projects" className="tag link">
                 <ScrollIntoView selector="#projects">Projects</ScrollIntoView>
               </Link>
               <Link to="/resume" className="tag link">
                 <ScrollIntoView selector="#resume">Resume</ScrollIntoView>
               </Link>
-              <Link
-                to="/calendar"
-                style={{ border: "none", marginTop: "40px" }}
-              >
+              <Link to="/calendar" className="calendar-view">
                 <img
                   to="/calendar"
                   src={github}
@@ -121,16 +54,7 @@ function App() {
               <Route path="/calendar" component={Calendar} />
             </Router>
           </div>
-          <footer
-            style={{
-              opacity: "0.600",
-              marginTop: "50px",
-              marginBottom: "10px",
-              fontSize: "10pt",
-            }}
-          >
-            Sophia Bell, 2020
-          </footer>
+          <footer>Sophia Bell, 2020</footer>
         </div>
       </>
     </ThemeProvider>

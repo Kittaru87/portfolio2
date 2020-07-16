@@ -27,8 +27,6 @@ const ScrollUp = () => {
       className="scrollTop"
       onClick={scrollToTop}
       style={{
-        height: 40,
-        marginBottom: "50px",
         display: scroll ? "flex" : "none",
       }}
     />

@@ -11,7 +11,7 @@ function Projects() {
       <div>
         <blockquote id="projects">
           A selection of current and finished projects
-          <p style={{ fontSize: "16px" }}>(available on Github)</p>
+          <p className="small-text">(available on Github)</p>
         </blockquote>
       </div>
 

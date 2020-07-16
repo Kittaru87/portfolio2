@@ -1,22 +1,20 @@
-
 blockquote p {
   font-size: 16px;
-    margin-block-end: 0;
-    margin-block-start: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
 }
 
-.project{
+.project {
   opacity: 0.666;
   line-height: 1.6;
   padding: 0 1em 0 5em;
   width: 45%;
-
 }
 
 .project-gif {
   text-align: right;
   padding: 0 em 0 2em;
-  display: inline-block;  
+  display: inline-block;
   width: 70%;
 }
 
@@ -24,28 +22,29 @@ blockquote p {
   margin: -80px auto;
 }
 
+.small-text {
+  font-size: 16px;
+}
 
-@media only screen and (max-width : 1450px) {
-
+@media only screen and (max-width: 1450px) {
   .right {
-    margin: 20px auto;;
+    margin: 20px auto;
   }
 }
 
-@media only screen and (max-width : 850px) {
-.project{
-  padding: 0 2em;
-  width: auto;
-}
+@media only screen and (max-width: 850px) {
+  .project {
+    padding: 0 2em;
+    width: auto;
+  }
 
-.project-gif {
-  text-align: center;
-}
+  .project-gif {
+    text-align: center;
+  }
 
-img {
-  width: 90%;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-}
-
+  img {
+    width: 90%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
 }
