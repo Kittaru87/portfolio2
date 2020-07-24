@@ -44,10 +44,10 @@ function Hero(props) {
         </nav>
       </header>
       <div className="currently-looking-tag">
-        <span className="tag tag-primary">Currently looking</span>
+        <span className="tag tag-primary">Not currently looking</span>
       </div>
       <blockquote>
-        Software Engineer and graduate of{" "}
+        Software Engineer at DMW Group and graduate of{" "}
         <a
           href="https://makers.tech/"
           target="_blank"
