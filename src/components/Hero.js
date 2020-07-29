@@ -47,7 +47,15 @@ function Hero(props) {
         <span className="tag tag-primary">Not currently looking</span>
       </div>
       <blockquote>
-        Software Engineer at DMW Group and graduate of{" "}
+        Software Engineer at{" "}
+        <a
+          href="https://www.dmwgroup.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          DMW Group
+        </a>{" "}
+        and graduate of{" "}
         <a
           href="https://makers.tech/"
           target="_blank"
