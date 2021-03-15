@@ -49,11 +49,11 @@ function Hero(props) {
       <blockquote>
         Software Engineer at{" "}
         <a
-          href="https://www.dmwgroup.com/"
+          href="https://www.credera.co.uk/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          DMW Group
+          Credera UK
         </a>{" "}
         and graduate of{" "}
         <a
